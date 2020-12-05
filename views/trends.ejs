@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google trends</title>
+</head>
+
+<body>
+    <h1>Todays Most Popular Words</h1>
+    <ul>
+        <% for(var k=0;k != googletrendsarray.length;k++){ %>
+        <li><%= googletrendsarray[k]%></li>
+        <% }%>
+    </ul>
+</body>
+
+</html>
